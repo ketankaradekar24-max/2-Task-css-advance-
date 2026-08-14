@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home | Ketan Karadekar</title>
+<meta name="description" content="Professional portfolio home page for Ketan Karadekar, a Computer Science and Engineering student focused on accessible web development.">
+<meta name="keywords" content="Computer Science, HTML5, accessibility, web development, portfolio">
+<meta name="author" content="Ketan Karadekar">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#2563eb">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header">
+<nav class="container nav-bar" aria-label="Primary navigation">
+<a class="brand" href="index.html" aria-label="Ketan Karadekar, home">KK<span aria-hidden="true">.</span></a>
+<section class="nav-actions" aria-label="Display controls">
+<button class="theme-button" type="button" aria-pressed="false" aria-label="Switch to dark theme"><span aria-hidden="true">◐</span></button>
+<button class="menu-button" type="button" aria-expanded="false" aria-controls="site-navigation">
+<span class="sr-only">Open navigation menu</span><span aria-hidden="true">☰</span>
+</button>
+</section>
+<ul id="site-navigation" class="nav-list">
+  <li><a href="index.html" aria-current="page">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="projects.html">Projects</a></li>
+  <li><a href="skills.html">Skills</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+<main id="main-content">
+<section class="hero" aria-labelledby="hero-title">
+<article class="container hero-grid">
+<section>
+<p class="eyebrow">Computer Science &amp; Engineering</p>
+<h1 id="hero-title">Building thoughtful, accessible web experiences.</h1>
+<p class="lead">I am a CSE student developing practical skills in modern web technologies with a focus on clean structure, responsive design and accessibility.</p>
+<p class="button-row"><a class="button" href="projects.html">Explore projects</a><a class="button secondary" href="contact.html">Contact me</a></p>
+</section>
+<aside class="intro-card" aria-labelledby="focus-title">
+<p class="card-kicker">Current focus</p><h2 id="focus-title">Learn. Build. Improve.</h2>
+<p>Creating interfaces that are usable across devices and accessible to people with different needs.</p>
+</aside>
+</article>
+</section>
+<section class="section" aria-labelledby="highlights-title">
+<article class="container"><p class="eyebrow">Portfolio</p><h2 id="highlights-title">What this portfolio demonstrates</h2>
+<section class="card-grid" aria-label="Portfolio highlights">
+<article class="card"><h3>Semantic HTML5</h3><p>Meaningful page landmarks and content structure make the site easier to understand and maintain.</p></article>
+<article class="card"><h3>Accessibility</h3><p>Keyboard navigation, visible focus, labels, skip links and carefully selected ARIA improve usability.</p></article>
+<article class="card"><h3>Responsive design</h3><p>A consistent layout adapts to mobile, tablet and desktop screen sizes.</p></article>
+</section></article>
+</section>
+<section class="section muted" aria-labelledby="next-title"><article class="container narrow">
+<p class="eyebrow">Explore</p><h2 id="next-title">Learn more about my work.</h2>
+<p>Explore my background, skills and selected projects, or send me a message through the accessible contact form.</p>
+<a class="text-link" href="about.html">Read about me →</a>
+</article></section>
+</main>
+<footer class="site-footer">
+<section class="container footer-content" aria-labelledby="footer-title">
+<h2 id="footer-title" class="sr-only">Footer information</h2>
+<p>© <span class="current-year"></span> Ketan Karadekar</p>
+<nav aria-label="Footer navigation"><a href="index.html">Home</a><a href="contact.html">Contact</a></nav>
+</section>
+</footer>
+<script src="js/script.js" defer></script>
+</body>
+</html>
